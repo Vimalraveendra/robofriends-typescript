@@ -42,7 +42,7 @@ class App extends React.Component<IAppProps, IAppState> {
 
   render(): JSX.Element {
     return !this.state.robots.length ? (
-      <h1>Loading...</h1>
+      <h1>Loading Robots...</h1>
     ) : (
       <div className="tc">
         <h1 className="f1">RoboFriends</h1>
